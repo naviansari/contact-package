@@ -13,6 +13,12 @@
         "psr-4": {
             "Edutras\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edutras\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
-
 }
